@@ -20,6 +20,7 @@
 		9E8B94401C6E92A90025CBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8B943E1C6E92A90025CBBA /* LaunchScreen.storyboard */; };
 		9E8B944B1C6E92A90025CBBA /* arcticrunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B944A1C6E92A90025CBBA /* arcticrunTests.swift */; };
 		9E8B94561C6E92A90025CBBA /* arcticrunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B94551C6E92A90025CBBA /* arcticrunUITests.swift */; };
+		C259E4EF1C77C56D009539CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C259E4EE1C77C56D009539CC /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		9E8B94511C6E92A90025CBBA /* arcticrunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arcticrunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8B94551C6E92A90025CBBA /* arcticrunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcticrunUITests.swift; sourceTree = "<group>"; };
 		9E8B94571C6E92A90025CBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C259E4EE1C77C56D009539CC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5784A7241C76F20A00EFBD10 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
 		7C27F0C71C76A604005484DE /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,11 +126,11 @@
 		9E8B94341C6E92A90025CBBA /* arcticrun */ = {
 			isa = PBXGroup;
 			children = (
-				5784A7241C76F20A00EFBD10 /* Controllers */,
 				5784A7231C76F19300EFBD10 /* arcticrun.entitlements */,
 				7C27F0C71C76A604005484DE /* SWRevealViewController */,
 				9E8B94351C6E92A90025CBBA /* AppDelegate.swift */,
 				9E8B94371C6E92A90025CBBA /* ViewController.swift */,
+				C259E4EE1C77C56D009539CC /* MapViewController.swift */,
 				7C27F0D61C76BFCE005484DE /* HomePageViewController.swift */,
 				7C27F0D81C76C023005484DE /* FitnessViewController.swift */,
 				9E8B94391C6E92A90025CBBA /* Main.storyboard */,
@@ -228,6 +223,9 @@
 		9E8B942A1C6E92A90025CBBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Map,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = COMP4977iPhoneTeam;
@@ -310,6 +308,7 @@
 				9E8B94381C6E92A90025CBBA /* ViewController.swift in Sources */,
 				9E8B94361C6E92A90025CBBA /* AppDelegate.swift in Sources */,
 				7C27F0CB1C76A655005484DE /* SWRevealViewController.m in Sources */,
+				C259E4EF1C77C56D009539CC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
